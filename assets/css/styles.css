@@ -22,7 +22,6 @@
   text-align: center;
   color: #001e49;
   text-shadow: rgba(0, 0, 0, 0.61);
-  padding-bottom: 3vh;
 }
 
 .card-btn {
@@ -34,8 +33,17 @@
   color: white;
 }
 
+.card-btn a {
+  text-decoration: none;
+  color: white;
+}
+
 .card-btn:hover {
   color: #001e49;
-  background-color: white;
   border-color: #001e49;
+  background-color: white;
+}
+
+.card-btn a:hover {
+  color: #001e49;
 }
