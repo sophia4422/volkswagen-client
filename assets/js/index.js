@@ -1,3 +1,6 @@
+const form = document.getElementById("form");
+const title = document.getElementById("register-title");
+
 const nav = document.querySelector("nav");
 
 window.addEventListener("scroll", function () {
@@ -6,4 +9,8 @@ window.addEventListener("scroll", function () {
   } else {
     nav.classList.remove("bg-dark", "shadow");
   }
+});
+
+form.addEventListener("submit", () => {
+  title.innerText = "Thank you for registering!";
 });
