@@ -47,11 +47,52 @@
 }
 
 .card-btn:hover {
+  background-color: white;
   color: #001e49;
   border-color: #001e49;
-  background-color: white;
 }
 
 .card-btn a:hover {
   color: #001e49;
+}
+
+.features {
+  padding-top: 40px;
+}
+
+.features .feature-icon {
+  padding: 10px 0px;
+}
+
+.features .feature-icon i {
+  background: #001e49;
+  color: white;
+  padding: 14px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.features .feature-header {
+  font-size: 22px;
+  font-weight: bold;
+  color: #001e49;
+  padding: 10px 0px;
+}
+
+.features .feature-divider {
+  background: linear-gradient(
+    to right,
+    #001e49 0%,
+    #001e49 20%,
+    rgba(255, 255, 255, 0) 20%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  height: 4px;
+  width: 100%;
+}
+
+.features .feature-detail {
+  color: #001e49;
+  padding: 10px 0px;
 }
